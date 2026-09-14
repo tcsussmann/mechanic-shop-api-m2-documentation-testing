@@ -1,0 +1,28 @@
+2026-08-28_mechanic_shop_api/
+│
+├── app/
+│   ├── __init__.py
+│   ├── extensions.py
+│   ├── models.py
+│   │
+│   └── blueprints/
+│       ├── customer/
+│       │   ├── __init__.py
+│       │   ├── routes.py
+│       │   └── schemas.py
+│       │
+│       ├── mechanic/
+│       │   ├── __init__.py
+│       │   ├── routes.py
+│       │   └── schemas.py
+│       │
+│       └── service_ticket/
+│           ├── __init__.py
+│           ├── routes.py
+│           └── schemas.py
+│
+├── .gitignore
+├── .venv/
+├── app.py
+├── config.py
+└── project_tree.txt
